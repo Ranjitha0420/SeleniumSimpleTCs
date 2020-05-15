@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117577" started-at="2020-05-14T14:54:40Z" finished-at="2020-05-14T14:56:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117577" started-at="2020-05-14T14:54:40Z" finished-at="2020-05-14T14:56:38Z">
+      <class name="com.training.sanity.tests.ELTC_043_UploadAssignment">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="setUpBeforeClass" is-config="true" duration-ms="32" started-at="2020-05-14T20:24:40Z" finished-at="2020-05-14T20:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="setUp" duration-ms="15109" started-at="2020-05-14T20:24:40Z" finished-at="2020-05-14T20:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="validLoginTest" duration-ms="4430" started-at="2020-05-14T20:24:55Z" finished-at="2020-05-14T20:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="uploadAssignmentTest()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="uploadAssignmentTest" duration-ms="94209" started-at="2020-05-14T20:25:00Z" finished-at="2020-05-14T20:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadAssignmentTest -->
+        <test-method status="PASS" signature="validLogoutTest()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="validLogoutTest" duration-ms="1964" started-at="2020-05-14T20:26:34Z" finished-at="2020-05-14T20:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="tearDown" is-config="true" duration-ms="1781" started-at="2020-05-14T20:26:36Z" finished-at="2020-05-14T20:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.ELTC_043_UploadAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
