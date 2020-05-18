@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.ELTC_043_UploadAssignment">
+      <class name="com.training.sanity.tests.ELTC_044_DiscussinForum">
         <methods>
           <include name="tearDown"/>
           <include name="validLogoutTest"/>
           <include name="setUpBeforeClass"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.ELTC_043_UploadAssignment -->
+      </class> <!-- com.training.sanity.tests.ELTC_044_DiscussinForum -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

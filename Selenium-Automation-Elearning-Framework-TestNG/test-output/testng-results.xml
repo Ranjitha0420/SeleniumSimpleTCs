@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="117577" started-at="2020-05-14T14:54:40Z" finished-at="2020-05-14T14:56:38Z">
+  <suite name="Default suite" duration-ms="116643" started-at="2020-05-18T14:54:52Z" finished-at="2020-05-18T14:56:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="117577" started-at="2020-05-14T14:54:40Z" finished-at="2020-05-14T14:56:38Z">
-      <class name="com.training.sanity.tests.ELTC_043_UploadAssignment">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="setUpBeforeClass" is-config="true" duration-ms="32" started-at="2020-05-14T20:24:40Z" finished-at="2020-05-14T20:24:40Z">
+    <test name="Default test" duration-ms="116643" started-at="2020-05-18T14:54:52Z" finished-at="2020-05-18T14:56:48Z">
+      <class name="com.training.sanity.tests.ELTC_044_DiscussinForum">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-05-18T20:24:52Z" finished-at="2020-05-18T20:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="setUp" duration-ms="15109" started-at="2020-05-14T20:24:40Z" finished-at="2020-05-14T20:24:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="setUp" duration-ms="16676" started-at="2020-05-18T20:24:52Z" finished-at="2020-05-18T20:25:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="validLoginTest" duration-ms="4430" started-at="2020-05-14T20:24:55Z" finished-at="2020-05-14T20:25:00Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="validLoginTest" duration-ms="5842" started-at="2020-05-18T20:25:09Z" finished-at="2020-05-18T20:25:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="uploadAssignmentTest()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="uploadAssignmentTest" duration-ms="94209" started-at="2020-05-14T20:25:00Z" finished-at="2020-05-14T20:26:34Z">
+        <test-method status="PASS" signature="validCreateReplyThread()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="validCreateReplyThread" duration-ms="90623" started-at="2020-05-18T20:25:14Z" finished-at="2020-05-18T20:26:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadAssignmentTest -->
-        <test-method status="PASS" signature="validLogoutTest()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="validLogoutTest" duration-ms="1964" started-at="2020-05-14T20:26:34Z" finished-at="2020-05-14T20:26:36Z">
+        </test-method> <!-- validCreateReplyThread -->
+        <test-method status="PASS" signature="validLogoutTest()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="validLogoutTest" duration-ms="1617" started-at="2020-05-18T20:26:45Z" finished-at="2020-05-18T20:26:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_043_UploadAssignment@4520ebad]" name="tearDown" is-config="true" duration-ms="1781" started-at="2020-05-14T20:26:36Z" finished-at="2020-05-14T20:26:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="tearDown" is-config="true" duration-ms="1835" started-at="2020-05-18T20:26:47Z" finished-at="2020-05-18T20:26:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.ELTC_043_UploadAssignment -->
+      </class> <!-- com.training.sanity.tests.ELTC_044_DiscussinForum -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

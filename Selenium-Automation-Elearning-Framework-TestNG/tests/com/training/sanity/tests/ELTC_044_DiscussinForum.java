@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
 import com.training.pom.ELearningAssignmentsPOM;
+import com.training.pom.ELearningForumPOM;
 import com.training.pom.ELearningLoginPOM;
 import com.training.pom.ELearningMyCoursesPOM;
 import com.training.utility.DriverFactory;
@@ -27,7 +28,7 @@ public class ELTC_044_DiscussinForum {
 	private String baseUrl;
 	private ELearningLoginPOM eLearningLoginPOM;
 	private ELearningMyCoursesPOM eLearningMyCoursesPOM;
-	private ELearningAssignmentsPOM eLearningAssignmentsPOM;
+	private ELearningForumPOM eLearningForumPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -43,7 +44,7 @@ public class ELTC_044_DiscussinForum {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		eLearningLoginPOM = new ELearningLoginPOM(driver); 
 		eLearningMyCoursesPOM = new ELearningMyCoursesPOM(driver);
-		eLearningAssignmentsPOM = new ELearningAssignmentsPOM(driver);
+		eLearningForumPOM = new ELearningForumPOM(driver);
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
@@ -55,7 +56,7 @@ public class ELTC_044_DiscussinForum {
 	public void validLoginTest() {
 		eLearningLoginPOM.sendUserName("reva321");
 		eLearningLoginPOM.sendPassword("Pa55word");
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_1_First");
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_1_First");
 		eLearningLoginPOM.clickLoginBtn(); 
 		
 	}
@@ -66,89 +67,54 @@ public class ELTC_044_DiscussinForum {
 		try{
 			
 		Thread.sleep(5000);
-		eLearningAssignmentsPOM.clickLinkMyCourses();
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_2_Second");
-		Thread.sleep(5000);
-		eLearningAssignmentsPOM.clickLinkCourseSeleniumwithJava();
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_3_Third");
-		Thread.sleep(5000);
-		eLearningAssignmentsPOM.clickLinkAssignments();
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_4_Fourth");
-		Thread.sleep(5000);
-		eLearningAssignmentsPOM.clickLinkAssignment1();
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_5_Fifth");
-		Thread.sleep(6000);
-		eLearningAssignmentsPOM.clickButtonUploadmyAssignment();
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_6_Sixth");
-		Thread.sleep(5000);
-		eLearningAssignmentsPOM.clickTabUploadSimple();
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_7_Seventh");
-		Thread.sleep(5000);
-		eLearningAssignmentsPOM.enterTextTitle("Assignment1");
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_8_Eighth");
-		Thread.sleep(5000);
-		//eLearningAssignmentsPOM.clickButtonChooseFile();
-		//Thread.sleep(5000);
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_9_Ninth");
-		String text = "C:\\Ranjitha\\IBM Upskill LP B21\\Lab\\TestAssignment.docx";
-		StringSelection stringSelection = new StringSelection(text);
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);;
-		// Clipboard c = tol.getSystemClipboard();
+		eLearningForumPOM.clickLinkMyCourses();
 		
-		
-		
-		Robot robot = new Robot();
-		 Thread.sleep(2000);
-		      
-		robot.keyPress(KeyEvent.VK_TAB);	 
-		 robot.keyRelease(KeyEvent.VK_TAB);
-		 
-		 Thread.sleep(2000);
-		 robot.keyPress(KeyEvent.VK_TAB);	 
-		 robot.keyRelease(KeyEvent.VK_TAB);
-		 Thread.sleep(2000);
-		 
-		 robot.keyPress(KeyEvent.VK_ENTER);
-		 robot.keyRelease(KeyEvent.VK_ENTER);
-		 Thread.sleep(2000);
-		  // Press CTRL+V
-		 robot.keyPress(KeyEvent.VK_CONTROL);
-		 robot.keyPress(KeyEvent.VK_V);
-		 
-		// Release CTRL+V
-		 robot.keyRelease(KeyEvent.VK_CONTROL);
-		 robot.keyRelease(KeyEvent.VK_V);
-		 Thread.sleep(2000);
-		
-		
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_2_Second");
 		Thread.sleep(5000);
-//		robot.keyPress(KeyEvent.VK_TAB);	 
-//		robot.keyRelease(KeyEvent.VK_TAB);
-//		
-		Thread.sleep(2000);
-		robot.keyPress(KeyEvent.VK_END);	 
-		robot.keyRelease(KeyEvent.VK_END);
+		eLearningForumPOM.clickLinkCourseSeleniumwithJava();
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_3_Third");
+		Thread.sleep(5000);
+		eLearningForumPOM.clickLinkForum();
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_4_Fourth");
 		Thread.sleep(5000);
 		
-		 robot.keyPress(KeyEvent.VK_ENTER);
-		 robot.keyRelease(KeyEvent.VK_ENTER);
-		 
-		 
-		 
-		 Thread.sleep(5000);
-		 eLearningAssignmentsPOM.clickButtonUpload();
-		 Thread.sleep(5000);
-		 screenShot.captureScreenShot("ELTC_043_UploadAssignment_10_Tenth");
+		eLearningForumPOM.clickLinkGroup();
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_5_Fifth");
+		Thread.sleep(5000);
 		
-		 boolean msg= eLearningAssignmentsPOM.verifysuccessmessage();
-		 Assert.assertTrue(msg);
-		 
-		 
-		 boolean assignmentsubmitted= eLearningAssignmentsPOM.verifysubmittedassignment();
-		 Assert.assertTrue(assignmentsubmitted);
-		 screenShot.captureScreenShot("ELTC_043_UploadAssignment_11_Eleventh");
+		eLearningForumPOM.clickimgCreateThread();
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_6_Sixth");
+		Thread.sleep(5000);
+		
+		
+		eLearningForumPOM.entertxtThreadTitle("Discussion on xpath");
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_7_Seventh");
+		Thread.sleep(10000);
+		
+		eLearningForumPOM.entertxtThreadText("Discussion on xpath initiated");
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_8_Eigth");
+		Thread.sleep(5000);
+		
+		eLearningForumPOM.clickbtnCreateThread();
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_9_Ninth");
+		Thread.sleep(5000);
+		
+		boolean msgdisplayed = eLearningForumPOM.verifysuccessmessage();
+		Assert.assertEquals(true, msgdisplayed);
+		
+		eLearningForumPOM.clickbtnReplytoPost();
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_10_Tenth");
+		Thread.sleep(10000);
+		
+		eLearningForumPOM.entertxtThreadText("Replying to thread");
+		screenShot.captureScreenShot("ELTC_044_DiscussinForum_11_Eleventh");
+		Thread.sleep(5000);
+		
+		eLearningForumPOM.clickbtnSubmitReply();
+		screenShot.captureScreenShot("ELTC_043_UploadAssignment_12_Twelfth");
+		Thread.sleep(5000);
 		}catch(Exception e){
-		e.printStackTrace();	
+			e.printStackTrace();
 		}
 		
 	}
@@ -160,7 +126,7 @@ public class ELTC_044_DiscussinForum {
 		
 		boolean logoutVisibility = eLearningMyCoursesPOM.verifyLogoutVisibility();
 		Assert.assertTrue(logoutVisibility);
-		screenShot.captureScreenShot("ELTC_043_UploadAssignment_12_Twelfth");
+		screenShot.captureScreenShot("ELTC_043_UploadAssignment_13_Thirteenth");
 		
 		eLearningMyCoursesPOM.clickLogoutLink();
 
