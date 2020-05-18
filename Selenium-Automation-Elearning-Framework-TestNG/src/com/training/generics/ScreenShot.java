@@ -30,7 +30,8 @@ public class ScreenShot {
 	public void captureScreenShot(){
 		
 		// to be changed 
-		String path = "C:\\Ranjitha\\IBM Upskill LP B21\\eclipse-jee-neon-3-win32\\eclipse\\git\\selenium-elearning-automation-framework\\final-framework-testng\\screenshots\\";
+		//String path = "C:\\Ranjitha\\IBM Upskill LP B21\\eclipse-jee-neon-3-win32\\eclipse\\git\\selenium-elearning-automation-framework\\final-framework-testng\\screenshots\\";
+		String path = "C:\\Users\\RanjithaSadasivan\\git\\repository\\git1\\Selenium-Automation-Elearning-Framework-TestNG\\screenshots";
 		String fileName ="";
 
 		GregorianCalendar calendar = new GregorianCalendar(); 
