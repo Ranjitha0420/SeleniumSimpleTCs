@@ -30,22 +30,33 @@ public class LoginDataProviders {
 	
 	@DataProvider(name = "excel-inputs")
 	public static Object[][] getExcelData(){
-		String fileName ="D:\\Software\\testdata.xlsx"; 
+		String fileName ="C:\\Ranjitha\\IBM Upskill LP B21\\excelinput\\Elearning.xlsx"; 
 		
-		List<List<Object>> retVal= ApachePOIExcelRead.getExcelContent(fileName);
-		System.out.println("size" + retVal.size());
-		
-		Object[][] result = new Object[retVal.size()][retVal.size()];
-		int count=0;
-		
+		List<List<Object>> retVal= ApachePOIExcelRead.getExcelContent(fileName);			
+		System.out.println("size" + retVal.size());		
+		Object[][] result = new Object[retVal.size()][retVal.size()];		
+		int count=0;		
 		for(List<Object> temp : retVal){
-			if(temp!=null){
-				Object[] obj = new Object[2];
+			if(temp!=null){				
+				Object[] obj = new Object[8];
 				System.out.println(temp.get(0));
 				System.out.println(temp.get(1));
+				System.out.println(temp.get(2));
+				System.out.println(temp.get(3));
+				System.out.println(temp.get(4));
+				System.out.println(temp.get(5));
+				System.out.println(temp.get(6));
+				System.out.println(temp.get(7));
 				
 				obj[0]= temp.get(0);
 				obj[1]= temp.get(1);
+				obj[2]= temp.get(2);
+				obj[3]= temp.get(3);
+				obj[4]= temp.get(4);
+				obj[5]= temp.get(5);
+				obj[6]= temp.get(6);
+				obj[7]= temp.get(7);
+
 				
 				result[count ++]= obj;
 			}

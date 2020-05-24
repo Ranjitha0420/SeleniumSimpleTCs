@@ -2,36 +2,216 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="116643" started-at="2020-05-18T14:54:52Z" finished-at="2020-05-18T14:56:48Z">
+  <suite name="Default suite" duration-ms="121497" started-at="2020-05-24T09:58:45Z" finished-at="2020-05-24T10:00:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="116643" started-at="2020-05-18T14:54:52Z" finished-at="2020-05-18T14:56:48Z">
-      <class name="com.training.sanity.tests.ELTC_044_DiscussinForum">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-05-18T20:24:52Z" finished-at="2020-05-18T20:24:52Z">
+    <test name="Default test" duration-ms="121497" started-at="2020-05-24T09:58:45Z" finished-at="2020-05-24T10:00:47Z">
+      <class name="com.training.sanity.tests.ELTC_074_InvalidRegistration">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-05-24T15:28:45Z" finished-at="2020-05-24T15:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="setUp" duration-ms="16676" started-at="2020-05-18T20:24:52Z" finished-at="2020-05-18T20:25:09Z">
+        <test-method status="PASS" signature="testingexcelinput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="testingexcelinput" duration-ms="28896" started-at="2020-05-24T15:28:46Z" data-provider="excel-inputs" finished-at="2020-05-24T15:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mathur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Neeta@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Neeta]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Neeta]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Neeta]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="validLoginTest" duration-ms="5842" started-at="2020-05-18T20:25:09Z" finished-at="2020-05-18T20:25:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="validCreateReplyThread()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="validCreateReplyThread" duration-ms="90623" started-at="2020-05-18T20:25:14Z" finished-at="2020-05-18T20:26:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validCreateReplyThread -->
-        <test-method status="PASS" signature="validLogoutTest()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="validLogoutTest" duration-ms="1617" started-at="2020-05-18T20:26:45Z" finished-at="2020-05-18T20:26:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_044_DiscussinForum@16905e]" name="tearDown" is-config="true" duration-ms="1835" started-at="2020-05-18T20:26:47Z" finished-at="2020-05-18T20:26:48Z">
+        </test-method> <!-- testingexcelinput -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="tearDown" is-config="true" duration-ms="1852" started-at="2020-05-24T15:29:15Z" finished-at="2020-05-24T15:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.ELTC_044_DiscussinForum -->
+        <test-method status="PASS" signature="testingexcelinput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="testingexcelinput" duration-ms="28708" started-at="2020-05-24T15:29:17Z" data-provider="excel-inputs" finished-at="2020-05-24T15:29:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hales]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alex]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alex]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[alex]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[alex]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543211]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingexcelinput -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="tearDown" is-config="true" duration-ms="2004" started-at="2020-05-24T15:29:45Z" finished-at="2020-05-24T15:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testingexcelinput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="testingexcelinput" duration-ms="28420" started-at="2020-05-24T15:29:47Z" data-provider="excel-inputs" finished-at="2020-05-24T15:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[george]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bush]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[george@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[george]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[george]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bush]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingexcelinput -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="tearDown" is-config="true" duration-ms="1794" started-at="2020-05-24T15:30:16Z" finished-at="2020-05-24T15:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testingexcelinput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="testingexcelinput" duration-ms="27411" started-at="2020-05-24T15:30:18Z" data-provider="excel-inputs" finished-at="2020-05-24T15:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[angel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mark@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mark]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mark]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mark]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[markangels]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingexcelinput -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ELTC_074_InvalidRegistration@e2cbe0]" name="tearDown" is-config="true" duration-ms="1920" started-at="2020-05-24T15:30:45Z" finished-at="2020-05-24T15:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.ELTC_074_InvalidRegistration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

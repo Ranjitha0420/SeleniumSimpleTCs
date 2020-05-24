@@ -77,6 +77,9 @@ public class ScreenShot {
 			TakesScreenshot takeScreenShot  = (TakesScreenshot) driver; 
 			File file = takeScreenShot.getScreenshotAs(OutputType.FILE);
 			
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile, new File("E:\\google.jpg"));
+			
 			FileUtils.copyFile(file, new File(path +fileName+".png"));
 		} catch (WebDriverException e) {
 			e.printStackTrace();

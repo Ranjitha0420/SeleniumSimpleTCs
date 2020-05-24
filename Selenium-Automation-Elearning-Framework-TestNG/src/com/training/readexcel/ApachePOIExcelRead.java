@@ -8,6 +8,7 @@ import java.util.List;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -54,7 +55,8 @@ public class ApachePOIExcelRead {
 					switch (cell.getCellType()) {
 
 					case Cell.CELL_TYPE_NUMERIC:
-							tempList.add(((Double) cell.getNumericCellValue()).toString()); 
+							//tempList.add(((Double) cell.getNumericCellValue()).toString());
+						tempList.add(NumberToTextConverter.toText(cell.getNumericCellValue()));
 						break;
 					case Cell.CELL_TYPE_STRING:
 							tempList.add(cell.getStringCellValue());
